@@ -71,6 +71,25 @@ The project demonstrates end-to-end development of a modern web application, fro
 
 ---
 
+### Ketabdaneh — Branch Operations Management System
+
+**Next.js / TypeScript / FastAPI / PostgreSQL / Redis / Docker / Caddy**
+
+A branch operations management system designed to organize and monitor day-to-day branch activities, with a focus on people and roles, events, assignments, tasks, calendar operations, and operational visibility, helping maintain consistent workflows even when the branch manager is unavailable.
+
+* Developed the frontend with **Next.js and TypeScript**, including bilingual **FA/EN** localization, full **RTL/LTR** support, and light/dark themes.
+* Developed the backend with **FastAPI** using a **Modular Monolith** architecture.
+* Designed and implemented the persistence layer with **PostgreSQL, SQLAlchemy, and Alembic**, including database migrations and schema management.
+* Implemented **authentication and role-based access control (RBAC)** using JWTs, server-side permission management, and protected business APIs.
+* Built a background processing pipeline using **Redis and ARQ Worker** for asynchronous jobs, notifications, bounded retries, and exponential backoff.
+* Established a production-oriented **logging and observability** foundation with structured request logging, correlation IDs, health checks, and Prometheus-compatible metrics.
+* Built a containerized production stack with **Docker Compose** and **Caddy** as the edge proxy, including TLS termination and same-origin routing.
+* Designed deployment workflows covering environment validation, database migrations, service startup, readiness checks, deployment verification, and backup/restore procedures.
+* Implemented **CI/CD and security automation** covering backend and frontend tests, production builds, Docker validation, secret scanning, dependency auditing, and security checks.
+* Performed end-to-end and production-readiness verification and addressed defects identified during CI, deployment, security, and runtime validation.
+
+---
+
 ### 🤖 AI Chat
 
 An AI chat application designed to work with multiple LLM providers and APIs, including **OpenRouter, Hugging Face, and Gemini**.
@@ -83,12 +102,6 @@ Features include:
 * Multi-provider AI integration
 
 🔗 [View Repository](https://github.com/mistrs2p/Free-AI-Chatbot)
-
----
-
-### 📅 Basic Planner
-
-A workflow and planning application built with **FastAPI and Next.js**, featuring roles, members, managers, workflows, and a custom calendar-based process.
 
 ---
 
