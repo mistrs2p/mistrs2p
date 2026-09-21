@@ -51,6 +51,24 @@ My main focus is **JavaScript / TypeScript**, with hands-on experience across mo
 
 ## ⭐ Featured Projects
 
+### Neco Management Platform — Enterprise Management Platform
+
+**React / Vue.js / TypeScript / Mantine / AG Grid / REST API / AI Integration / Localization**
+
+A large-scale, multi-module enterprise management platform designed to support a wide range of organizational workflows and operations, including task and follow-up management, programs, Program Designer, custom Form Generator, calendar, forms, letters, meetings, and AI-powered capabilities.
+
+* Owned the development, maintenance, and evolution of the **Frontend** across the platform and contributed to frontend architecture and technical decisions.
+* Contributed to the migration of the frontend from **Vue.js to React**, supporting the growing scale and maintainability requirements of the application.
+* Designed a **Repository Pattern-based API layer** to separate data access from UI components and improve maintainability and code organization.
+* Designed and developed a **custom Form Generator** for creating dynamic, configurable, and reusable business forms across multiple modules.
+* Implemented complex, data-intensive tables using **AG Grid**, with server-side search, filtering, sorting, and pagination.
+* Developed reusable and customized UI components, including advanced dropdowns, multi-select controls, forms, and contextual form actions using **Mantine** and other frontend technologies.
+* Integrated **AI-powered capabilities** into the platform and developed the related user interfaces to support intelligent organizational workflows.
+* Implemented and maintained **localization**, including bilingual user interfaces and RTL/LTR support.
+* Contributed to debugging, performance improvements, ongoing maintenance, and **production support**.
+
+---
+
 ### 🍅 Pomodoro App
 
 A full-stack productivity application built with **Next.js** and **NestJS**, with a dedicated frontend and backend architecture.
